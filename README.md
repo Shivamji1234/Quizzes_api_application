@@ -8,7 +8,7 @@ This is a RESTful API for creating and participating in timed quizzes.
 * Get Quiz Result: After the end time of a quiz, users can retrieve the result of the quiz, including the right answer.
 * Get All Quizzes: Users can retrieve all quizzes available.
 
-## Path for Users
+# Path for Users
 
 * http://127.0.0.1:8000/api/quiz/quizzes/
 * http://127.0.0.1:8000/api/quiz/quizzes/active/
@@ -44,15 +44,15 @@ From there  Create a new quiz.
 
 ```
 
-#API Documentation
+## API Documentation
 The API is well-documented and provides detailed information about the available endpoints, request formats, and responses.
 
-#Error Handling
+## Error Handling
 The API implements error handling for all endpoints and returns appropriate error responses. The responses include relevant status codes and error messages to assist in debugging and handling errors.
 
-#Automatic Quiz Status Updates
+## Automatic Quiz Status Updates
 The status field of each quiz is automatically updated based on the start and end time. The status can be one of the following values: 'inactive' (before the start time), 'active' (during the available time), or 'finished' (after the end time). This ensures that the API accurately reflects the status of each quiz.
 
-#Contributions
+## Contributions
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
