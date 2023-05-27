@@ -26,7 +26,7 @@ The API provides the following endpoints:
 
 
 ## For admin directly go to admin panel 
-From there  Create a new quiz.
+* From there  Create a new quiz.
 
 ## To access view API
 
